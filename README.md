@@ -20,3 +20,6 @@
 1. A scatter plot visualizes the actual salaries (in red) against the years of experience.
 2. The model's predictions are plotted (in blue) as a line graph against the years of experience, showing how the model approximates the relationship between experience and salary.
 
+# linear_reg 
+It is  the linear regression model creation code 
+
