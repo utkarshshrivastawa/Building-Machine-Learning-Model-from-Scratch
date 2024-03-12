@@ -21,5 +21,8 @@
 2. The model's predictions are plotted (in blue) as a line graph against the years of experience, showing how the model approximates the relationship between experience and salary.
 
 # linear_reg 
-It is  the linear regression model creation code 
+This version explicitly states that the code in question is specifically for creating a linear regression model.
+
+# Linear Regression model by notepad++ model
+In one version of the code, I build a linear regression model from scratch. In the other version, I achieve the same result by importing the linear regression model (linear_reg) instead of manually creating the class. 
 
