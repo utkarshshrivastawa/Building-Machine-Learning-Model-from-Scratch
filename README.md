@@ -49,5 +49,5 @@ The custom Logistic Regression model is capable of classifying individuals as di
 # Building Logistic Regression Model from Scratch
 About Logistic Regression 
 # Logictic_reg
-logistic Regression library creation
+This version explicitly states that the code in question is specifically for creating a logistic regression model for  library creation
 
