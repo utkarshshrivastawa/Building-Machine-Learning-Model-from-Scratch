@@ -53,6 +53,28 @@ This version explicitly states that the code in question is specifically for cre
 
 # Chapter 3 : Building-Machine-Learning-Model-from-Scratch
 
+## SVM Classifier Implementation:
+1. A class SVM_classifier is defined with methods for initialization (__init__), model training (fit), weight updating (update_weights), and prediction (predict).
+2. The fit method initializes weights and bias to zero and iterates over the dataset to update these parameters using a custom version of the gradient descent algorithm. The algorithm includes a regularization term (lambda_parameter) to control overfitting.
+3. The update_weights method adjusts weights and bias based on whether each data point meets the margin requirements of SVM. It differentiates between correctly classified points (outside the margin) and misclassified or within-margin points, applying different updates accordingly.
+
+## Data Preprocessing and Model Training:
+1. The diabetes dataset is loaded, and basic exploratory data analysis is performed (checking for null values, dataset shape, descriptive statistics).
+2. Features and targets are split, and feature data is standardized using StandardScaler to have a mean of 0 and a standard deviation of 1. This is crucial for SVM, which is sensitive to the scale of input features.
+3. The dataset is divided into training and testing sets, and the SVM_classifier is instantiated with specific hyperparameters (learning rate, number of iterations, and lambda parameter for regularization).
+4. The model is trained on the training set.
+
+## Model Evaluation:
+1. The trained SVM classifier is used to predict outcomes on both the training and testing sets.
+2. Model accuracy is evaluated by comparing predictions to true labels using the accuracy_score function from sklearn.metrics.
+
+## Making Predictions on New Data:
+1. An example input is processed (standardized using the same scaler as the training data) and fed into the trained model to predict the diabetes status.
+2. The prediction is output as either diabetic (1) or not diabetic (0), based on a decision threshold applied to the model's continuous output.
+
+## Conclusion:
+The custom SVM model demonstrates how to implement and train an SVM classifier using only NumPy for matrix operations and demonstrates basic preprocessing, training, and evaluation steps involved in machine learning tasks. This implementation provides a solid foundation for understanding SVM classifiers' workings and can be expanded or modified for more complex or different classification tasks.
+
 
  
 
