@@ -75,6 +75,9 @@ This version explicitly states that the code in question is specifically for cre
 ## Conclusion:
 The custom SVM model demonstrates how to implement and train an SVM classifier using only NumPy for matrix operations and demonstrates basic preprocessing, training, and evaluation steps involved in machine learning tasks. This implementation provides a solid foundation for understanding SVM classifiers' workings and can be expanded or modified for more complex or different classification tasks.
 
+# Support Vector Machine Model Notes 
+About SVM
+
 
  
 
