@@ -82,6 +82,21 @@ About SVM
 This version explicitly states that the code in question is specifically for creating a logistic regression model for  library creation
 
 # Chapter 4 : Implementing_the_Lasso_Regression_Model 
+## Lasso Regression Implementation:
+1. A Lasso_Regression class is defined with methods for initialization (__init__), model fitting (fit), weight updating (update_weights), and prediction (predict).
+2. The fit method initializes weights and bias to zeros, then iterates over the dataset to update these parameters using a modified version of the gradient descent algorithm that includes the Lasso regularization term (lambda_parameter). The regularization term penalizes the absolute size of the regression coefficients and helps in feature selection.
+3. The update_weights method calculates the gradient for the weights considering the Lasso penalty, which is responsible for the feature selection capability of Lasso regression.
+
+## Data Preprocessing and Model Training:
+1. The salary dataset is loaded, and basic exploratory data analysis is performed (checking for null values, dataset shape).
+2. The dataset is divided into features (x) and target (y), followed by a split into training and testing sets.
+3. Both the custom Lasso_Regression model and the Lasso model from sklearn.linear_model are instantiated, trained on the training set, and used to predict salaries on the test set.
+
+## Model Evaluation:
+1. The performance of both models is evaluated using the R squared error and Mean Absolute Error (MAE). The R squared error measures how well the observed outcomes are replicated by the model, based on the proportion of total variation of outcomes explained by the model. MAE measures the average magnitude of the errors in a set of predictions, without considering their direction.
+2. The custom model and the sklearn model show very similar performance metrics, demonstrating the effectiveness of the custom Lasso Regression implementation.
+# Conclusion:
+The custom Lasso Regression model successfully demonstrates the concept of Lasso regularization in linear regression, showing how it can be implemented from scratch using numpy. The comparison with sklearn's Lasso model validates the custom model's performance. This implementation provides a solid foundation for understanding Lasso Regression's workings and can be expanded or modified for more complex tasks or different datasets.
 
 
 # Contributions
