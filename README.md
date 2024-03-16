@@ -79,7 +79,7 @@ The custom SVM model demonstrates how to implement and train an SVM classifier u
 About SVM
 
 # svm_model
-This version explicitly states that the code in question is specifically for creating a logistic regression model for  library creation
+This version explicitly states that the code in question is specifically for creating a support Vector Machine model for  library creation
 
 # Chapter 4 : Implementing_the_Lasso_Regression_Model 
 ## Lasso Regression Implementation:
@@ -98,6 +98,11 @@ This version explicitly states that the code in question is specifically for cre
 # Conclusion:
 The custom Lasso Regression model successfully demonstrates the concept of Lasso regularization in linear regression, showing how it can be implemented from scratch using numpy. The comparison with sklearn's Lasso model validates the custom model's performance. This implementation provides a solid foundation for understanding Lasso Regression's workings and can be expanded or modified for more complex tasks or different datasets.
 
+# Lasso Regression note
+About Lasso (L1) 
+
+# Lasso_reg
+This version explicitly states that the code in question is specifically for creating a lasso regression model for  library creation
 
 # Contributions
 Contributions to this project are welcome! Whether it's suggesting improvements, adding new features, or refining the predictive model, your input is valuable. Feel free to fork the repository, make changes, and submit a pull request with your enhancements.
