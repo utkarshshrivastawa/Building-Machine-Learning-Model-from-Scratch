@@ -81,6 +81,7 @@ About SVM
 # svm_model
 This version explicitly states that the code in question is specifically for creating a logistic regression model for  library creation
 
-
+# Contributions
+Contributions to this project are welcome! Whether it's suggesting improvements, adding new features, or refining the predictive model, your input is valuable. Feel free to fork the repository, make changes, and submit a pull request with your enhancements.
  
 
