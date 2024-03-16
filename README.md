@@ -51,7 +51,7 @@ About Logistic Regression
 # Logictic_reg
 This version explicitly states that the code in question is specifically for creating a logistic regression model for  library creation
 
-# Chapter 3 : Building-Machine-Learning-Model-from-Scratch
+# Chapter 3 : Building_SVM_machine_learning_from_scratch
 
 ## SVM Classifier Implementation:
 1. A class SVM_classifier is defined with methods for initialization (__init__), model training (fit), weight updating (update_weights), and prediction (predict).
@@ -77,6 +77,9 @@ The custom SVM model demonstrates how to implement and train an SVM classifier u
 
 # Support Vector Machine Model Notes 
 About SVM
+
+# svm_model
+This version explicitly states that the code in question is specifically for creating a logistic regression model for  library creation
 
 
  
