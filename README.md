@@ -51,3 +51,8 @@ About Logistic Regression
 # Logictic_reg
 This version explicitly states that the code in question is specifically for creating a logistic regression model for  library creation
 
+# Chapter 3 : Building-Machine-Learning-Model-from-Scratch
+
+
+ 
+
